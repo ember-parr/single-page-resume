@@ -342,9 +342,9 @@ a.readmore:hover {
 	-o-transition: all 0.3s ease-in;
 	 transition: all 0.3s ease-in;
 }
-.fancy-nav:hover img {
+/* .fancy-nav:hover img {
 	-moz-transform: scale(1.2);
-}
+} */
 .fancy-nav img { 
 	float:left; 
 	width:100%;
@@ -457,7 +457,6 @@ header.style1 .social {
 	position:relative;
 }
 .author-thumb {
-	float:left;
 	width: 300px;
     display: inline-block;
     left: 50%;
@@ -529,7 +528,7 @@ header.style1 .social {
 	float:left;
 	width:100%;
 }
-.photo-carousel img { float:left; width 100%; }
+.photo-carousel img { float:left; width: 100%; }
 .photography-carousel .owl-nav {
     color: transparent;
     float: left;
@@ -589,7 +588,7 @@ header.style1 .social {
 }
 .photo-carousel .owl-prev {
     background: none repeat scroll 0 0 #e65650;
-    float: left;
+    /* float: left; */
     height: 60px;
     width: 60px;
 	display:inline-block;
@@ -1543,7 +1542,7 @@ a.btn-close i {
 	color:#dfdfdf; 
 	border-color:#5c5b5b; 
 }
-.portfolioFilter ul { float:left; width:100%; display:inline-block; }
+.portfolioFilter ul {  width:100%; display:inline-block; }
 .portfolioFilter ul li { display: inline-block; }
 .portfolioFilter ul li a {
 	display:inline-block;
